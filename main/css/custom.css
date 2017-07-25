@@ -1,0 +1,119 @@
+/* your styles go here */
+
+#beerlist .carousel-inner>.item>a>img,#beerlist .carousel-inner>.item>img,#beerlist .img-responsive, .thumbnail a>img,#beerlist .thumbnail>img{  height:300px; margin:auto}
+.endpointitem{ background-color:#eee; margin-bottom:30px}
+.endpointitem .box{ border:1px solid #ccc ; padding:15px}
+#index_beer_list .img-responsive{ height:250px; min-width:100%;border: 1px solid #ccc;}
+#index_beer_list .team-member p.role{    color: #38a7bb;    font-size: 20px;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{ max-height:350px}
+.my-favourite{ display:inline; padding:0}
+.my-favourite ul{ padding:10px; list-style-type:none}
+.my-favourite>li{ display:inline;}
+.my-favourite>li li a{color:#333 !important; margin:0 !important}
+.my-favourite>li li li {display:flex; border-bottom: 1px solid #eee; padding: 10px 0;}
+.my-favourite>li li li:last-child{border:0}
+.my-favourite>li li a.name{flex:5}
+.my-favourite>li li a.delete{
+    flex:1;
+    color: red !important;
+    font-size: 15px !important;
+    text-align: right;
+    line-height: 15px;}
+.my-favourite .open>.dropdown-menu{ min-width:300px; left:auto; right:0}
+.my-favourite .yamm-content{ width:100%}
+#map{width: 100%;height: 600px; background-color: grey;}
+#logout, #mylist{ cursor:pointer; margin-left:15px}
+#loginuser, #login-btn, #signin-btn{ display:none}
+#errormsg, #signup_errormsg{color:red; margin-bottom: 15px;}
+#loginuser span{ margin:0 15px;}
+.bar.background-image-fixed-3 {
+    background: url(../img/fixed-background-3.jpg) center top no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.yamm-content ul{ column-count:4}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{width:100%}
+/**** theme color *****/
+.home-carousel .dark-mask,
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.box-image .bg,
+#get-it,
+.owl-carousel .owl-controls .owl-page.active span, .owl-theme .owl-controls .owl-page.active span, .owl-carousel .owl-controls.clickable .owl-page:hover span, .owl-theme .owl-controls.clickable .owl-page:hover span,
+.btn-template-main:hover, .btn-template-main:focus, .btn-template-main:active, .btn-template-main.active{background: #24ad48;}
+
+#index_beer_list .team-member p.role,
+.navbar .yamm-content ul li a:hover,
+a,
+.btn-template-main,
+#login-modal a,
+.navbar ul.dropdown-menu li a:hover{color:#24ad48;}
+
+
+.btn-template-main,
+.btn-template-main:hover, .btn-template-main:focus, .btn-template-main:active, .btn-template-main.active{border-color: #24ad48;}
+
+.navbar ul.nav > li.active > a, .navbar ul.nav > li.open > a,
+.heading h1, .heading h2, .heading h3, .heading h4, .heading h5,
+.navbar ul.nav > li > a:hover{border-color: #206d26;}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{color:#fff}
+
+/***** beer detail style ****/
+.post-item{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.post-item .photo{
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.post-item .photo img{
+    max-width: 80px;
+}
+.post-item .content{
+   display:inline-block
+}
+.post-item .rating{
+    font-size: 30px;
+    color:#24ad48
+}
+
+.mylist img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 40px;
+}
+.mylist .name{
+    font-size: 20px;
+}
+.searchlist{
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    width: 100%;
+  width: 85%;
+    padding: 5%;
+      list-style-type: none;
+    color: #333;
+    border: 1px solid #eee;
+  display:none;
+}
+#search{
+   width: 100%;
+  padding:3px;
+  color:#333;
+      margin-top: -2px;
+    height: 22px;
+}
+.search_area{ text-align:right}
+.search_active ~.searchlist{ display:block;    height: 135px;
+    overflow: hidden;}
+.searchlist  li~li~li~li~li~li{ display:none}
+
+
